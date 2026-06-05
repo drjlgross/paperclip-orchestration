@@ -163,7 +163,7 @@ A disclosure on `eg2`: this topic overlaps my own PhD research, and the citation
 
 ## A note on Paperclip versions
 
-This workflow is built on Paperclip's current command set. Paperclip's paper-repository commands are in beta and not yet generally available; until they ship, the workflow records keeper papers and verification anchors inline and builds bibliographies manually. `map` can occasionally return a server-load error — the run retries and falls back to manual extraction. None of this is pinned to a version number, so the workflow degrades gracefully as Paperclip evolves.
+This workflow is built on Paperclip's version 0.3.0. Paperclip's paper-repository commands are in beta and not yet generally available; until they ship, the workflow records keeper papers and verification anchors inline and builds bibliographies manually. `map` can occasionally return a server-load error — the run retries and falls back to manual extraction. None of this is pinned to a version number, so the workflow degrades gracefully as Paperclip evolves.
 
 If Paperclip's behavior and this workflow's instructions ever diverge, the `Paperclip_documentation.md` you supplied in setup is the source of truth — it is whatever version you copied.
 
